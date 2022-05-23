@@ -16,13 +16,37 @@
 - Signature : provides ownership with private key sign
 - Wallet : contains private key and record of BTC owned
 
+Learning Outcomes :
+    - Explain 3 fundamental characteristics that define blockchain
+    - Important features of Ethereum blockchain
+    - Algo and techniques that enable a blockchain : crypto and hashing
+    - outline methods for realizing trust in a blockchain
+
 ## Week 1 : Blockchained Defined
 
 ### Blockchain
 
-- 
+- ConsenSys : John Wolpert
+    - Largest blockchain company
+    - based on Wash DC
+    - New Venture development lab
+    - blockchain : nimble procerious route for transaction
 
 ### Bitcoin and Blockchain
+    - Blockchain :
+        - p2p transaction of digital asset without intermediatry
+        - user cases : Goods transfer, Media transfer, Platform for decentralised business logic, distributed resources, crowd operation and fundings
+        - democratic approach
+    - Bitcoin :
+        - continuous working digital currency
+        - Autonomous decentralized application
+        - Satoshi Nakamoto : creator of TBC
+    - Blockchain :
+        - Software program for Validation, Verification and consensus
+        - P2P transcation in decentralized network
+        - Establisihing trust among peers
+        - Recording transactions in distributed ledger
+    
 
 ### Blockchain Structure :
 - transaction - block - chain
