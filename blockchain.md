@@ -46,7 +46,13 @@ Learning Outcomes :
         - P2P transcation in decentralized network
         - Establisihing trust among peers
         - Recording transactions in distributed ledger
-    
+    Establishing trust :
+        - Have a process in place to validate, verify and confirm transcations and can be done by :
+            - Record transaction in a ledger
+            - record the transaction in distributed ledger of blocks
+            - create a tamper-proof record of chains of blocsl.
+            - implement a conensus protocol to add to the chain 
+        - Provides us with : Validation, verification, consensus and immutable recording.
 
 ### Blockchain Structure :
 - transaction - block - chain
