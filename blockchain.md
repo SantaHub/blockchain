@@ -92,6 +92,15 @@ Learning Outcomes :
     Minors fee is the index 0 of the block, also called coinbase transaction. Miners fee is 12.5 BTC for a bitcoin. (Need to confirm)
 
 ### Beyond Bitcoin
+    Three Types of Blockchain 
+        Type 1 : Only Cryptocurrency, TBC
+        Type 2 : Currency + Business Logic, ETH
+        Type 3 : Only Business Logic, HyperLedger
+
+    Blockchain Category based on access limits
+        - Public : Open to internet
+        - Private : Only allowed collaborators
+        - Permissioned : Consortium blockchain for ease of governance, provenance and accountability.
 
 ## Week 2 : Ethereum Blockchian
 
