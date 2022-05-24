@@ -136,6 +136,22 @@ Objectives :
 
 ### Incentive Model
 
+    - Mining secures the network
+    - ETH uses incentive based model for block creation
+    - Gas points are used measure the fee of computation
+    - Gas points is independent of crypto market and does not swing with fluctuations in ETH value
+    - Gas limit : amount of gasl points available to spend
+    - The number of transactions and complexity of smart contracts are restricted by block gas limit
+    - Gas Spend : amount of gas spend at the completion of the block creation.
+    
+    Mining Incentive Model 
+    - Proof of work winner miner will create a new block that will be added to the chain
+        - 3 ETH and transaction fees.
+        - Gets Gas Points
+    - Other minors who also computed the transaction but did not make it to the block is called Ommers.
+        - Blocks created is called Ommer Blocks
+        - Gets a percentage of total gas points as a consolation and network security
+
 ## Week 3 : Algo and Techniques
 
 ### Public key Cryptography
