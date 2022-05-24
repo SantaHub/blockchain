@@ -55,16 +55,25 @@ Learning Outcomes :
         - Provides us with : Validation, verification, consensus and immutable recording.
 
 ### Blockchain Structure :
+
 - transaction - block - chain
 - consensus process used to add block. Verified my miners.
-- UTXO : Unspend transaction output
+- basic unit : UTXO : Unspend transaction output
 - Set of all UTXO defines the state of the Bitcoin blockchain
+- Role
+    Transaction : uses amount specified to input UTXO to output UTXO based on consensis specified. 
 - UTXO Structure : 
     - Unique ID of the transaction created by UTXO
     - its index in output list
     - value/amount its good for
     - optional contract
-- transaction 
+- Transaction Structure :
+    - Ref No of transaction
+    - 1 or more input and output UTXOs
+    - total input and output amount
+- Trust :
+    - Participants can validate the transactions
+    - Validation and verification methods defined by the blockchain and implemented by peers provide trust in DeSys.
 
 ### Basic Operations
 
@@ -72,7 +81,20 @@ Learning Outcomes :
 
 ## Week 2 : Ethereum Blockchian
 
-### Smart Contracts
+Objectives :
+    - Discuss smart contract
+    - illustrate Ethereum Blockchain protocol, elements and operations
+    - Demonstrate concept of "gas"
+    - incentive model of eth
+
+### Smart Contracts in Ethereum
+
+    - Piece of code in the node
+    - ETH can do complicated transfer with conditional transfers
+    - Smart contract resemebles class object in OOPs
+    - EVM : Ethereum Virtual Machine. Provide a platform independent computational platform
+    - node Smart contact in Solidity -> compiled to Byte code -> executed in EVM
+
 
 ### Ethereum Structure
 
@@ -101,3 +123,8 @@ Learning Outcomes :
 ### Forks
 
 
+## Abbrevations 
+
+DeSys : Decentralized System
+DeNet : Decentralized network
+DeFi : Decentralized Finance
