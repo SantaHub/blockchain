@@ -118,8 +118,12 @@ Objectives :
     - EVM : Ethereum Virtual Machine. Provide a platform independent computational platform
     - node Smart contact in Solidity -> compiled to Byte code -> executed in EVM
 
-
 ### Ethereum Structure
+    - ETH have accounds 
+        EOA : Externally owned accounts are controlled by Private keys. Need to participate on ETH
+        CA : Contract Accounts are controlled by the code and activated only by a EOA
+    Interact with Blockchain with transactions, every account have a coin balance.
+    Fees are paid in Wei. 1 ETH = 10^8 Wei
 
 ### Ethereum Operations
 
