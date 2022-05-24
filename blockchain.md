@@ -76,6 +76,11 @@ Learning Outcomes :
     - Validation and verification methods defined by the blockchain and implemented by peers provide trust in DeSys.
 
 ### Basic Operations
+    - Validateion of transactions
+    - Gathering transactions for a block
+    - Broadcasting valid transactions and block
+    - Consensus on next block creation
+    - chaining blocks
 
 ### Beyond Bitcoin
 
