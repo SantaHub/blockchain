@@ -76,11 +76,20 @@ Learning Outcomes :
     - Validation and verification methods defined by the blockchain and implemented by peers provide trust in DeSys.
 
 ### Basic Operations
-    - Validateion of transactions
-    - Gathering transactions for a block
+    - Validation of transactions
+        - input UTXOs are valid
+        - output UTXOs are correct
+        - IO amounts match
+        - reject if conditions wrong
+        - creates a block if conditions met
+    - Gathering transactions for a block 
     - Broadcasting valid transactions and block
     - Consensus on next block creation
     - chaining blocks
+
+    Miners compete to validate a transaction and broadcast the completed block, other participants verify the block and reach a consensus to add a new block to the chain.
+    Algo for consensus is Proof-of-work protocol
+    Minors fee is the index 0 of the block, also called coinbase transaction. Miners fee is 12.5 BTC for a bitcoin. (Need to confirm)
 
 ### Beyond Bitcoin
 
