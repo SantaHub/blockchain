@@ -121,11 +121,18 @@ Objectives :
 ### Ethereum Structure
     - ETH have accounds 
         EOA : Externally owned accounts are controlled by Private keys. Need to participate on ETH
-        CA : Contract Accounts are controlled by the code and activated only by a EOA
+        CA : Contract Accounts or smart contract accounts are controlled by the code and activated only by a EOA
     Interact with Blockchain with transactions, every account have a coin balance.
     Fees are paid in Wei. 1 ETH = 10^8 Wei
-
+    
 ### Ethereum Operations
+
+ - ETH Node has software needed for transaction initiation, validation, mining block creation, SC execution and EVM.
+ - SC is designed, developed, compiled and deployed on the EVM.
+ - Currency state of SC is the values of variables defined in it.
+ - A BC maintian state has and receopt has.
+ - Transaction validation involves checking the time-stamp and nonce combination to be valid and availablibity of fees
+ - Concensus protocol used is memory-based than a CPU based proof of work.
 
 ### Incentive Model
 
