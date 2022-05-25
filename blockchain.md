@@ -224,14 +224,39 @@ Objectives :
     Block hash is the hash of all elements in the header, keccak is used to hash.
     A bitcoin block have 2000 transactions and ETH block have 100 transactions
 
-    Hashesh in a block are hashed in tree structure called Merkle tree hash, its also used ot compute the  
-
+    Hashes in a block are computed in a tree structure called merkle tree hash.
+    Merkle TH is also used to hash state root since only the hash of chained state from block to block has to be recomputed.
+    
+    You dont have to go through the entire set of transactions. Smart Contract executuon in ETH result in state transition. Every state change requries state root re-computation.
 
 ## Week 4 : Trust Essential
 
+Learning Outcomes :
+    - Define elements of trust in a blockchain
+    - Discuss consensus protocol
+    - Explain Trust
+    - Illustrate soft fork and hard fork
+
 ### Decentralized Systems
 
+    -  Secure chain using protocols
+    - validate transaction and block
+    - Verify availability of resources
+    - Executing and confirming transactions
+
+    Trust Trail :
+        - Valid Tx
+        - Verify gas and resources
+        - Execute Tx to get to a new state
+        - Form new block
+        - Come to a consensus
+        - Add block to chain
+
 ### Consensus Protocol
+
+ Proof-of-work is used to select the next block in blockchain
+    - uses hashing
+ Proof-of-stake is also debated as a consensus protocol.
 
 ### Robustness
 
