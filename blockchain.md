@@ -260,8 +260,17 @@ Learning Outcomes :
 
 ### Robustness
 
+ When consensus happen at same time, blockchain do chain split and wait for next transaction to be completed. The second consensus completion happening at same time is of low probability and that chain will get consolidated into the main chain over the other.
+ ETH allows ommer blocks and provide a small incentive.
+ Double spending : same input Tx referenced multiple times.
+ Double spending is handled in TBC by considering the timestamps and acknowledging only the oldest transaction.
+ ETH uses account number and global nonce is used. The timestamp and unique nonce is validated to avoid double spend.
+
 ### Forks
 
+Forks Allows Blockchains to make changes in their underlying systems and version updates, the emerging two chains could be incompatible.
+Forks can build credibility to chain.
+Soft forks are minor changes to the system
 
 ## Abbrevations 
 
