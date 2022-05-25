@@ -210,6 +210,23 @@ Objectives :
 
 ### Securing Blockchain
 
+    Main components of the ETH block :
+    - Block Header
+    - Transaction hash and root
+    - State Hash and root
+
+    Integrity of a block
+
+    - Block header contents not tampered with
+    - Transactions are not tampered with
+    - State transitions are computed, hashed and verified
+
+    Block hash is the hash of all elements in the header, keccak is used to hash.
+    A bitcoin block have 2000 transactions and ETH block have 100 transactions
+
+    Hashesh in a block are hashed in tree structure called Merkle tree hash, its also used ot compute the  
+
+
 ## Week 4 : Trust Essential
 
 ### Decentralized Systems
