@@ -153,12 +153,60 @@ Objectives :
         - Gets a percentage of total gas points as a consolation and network security
 
 ## Week 3 : Algo and Techniques
+    Learning Objectives :
+        - summerize Public key cryptography
+        - Secure Hashing and Merkle Tree hashing
+        - Application of hashing and cryptography in protecting the blockchain
 
 ### Public key Cryptography
+    Symmetric key Encryption : Same key is used to encrypt and decrypt the message
+        - Easy to derive the secret key from encrypted data
+        - Key transaction
+    Public key cryptography : RSA Algorithm
+        - Use a key pair to encrypt with public key and decrypt using private key
+    Elliptice curve cryptohraphy ECC : 
+        - Bitcoin and Ethereum for generating a key pair.
+    256 bits ECC key pair ~= 3072 bits RSA key pair.
 
 ### Hashing
+    converts arbitary length of value to a fixed length of values using a key
+    Features :
+        - Hashing algo should be one-way function
+        - Collision Free
+    Common algos :
+        - SHA-3
+        - SHA-256
+        - Keccak-256
+    common size is 256 bit
+    Hashing is used to generate :
+        - Account addresses
+        - Digital Signature
+        - Transaction hash
+        - state hash
+        - receipt hash
+        - block header hash
+    
+### Transaction Integrity
 
-### Transactional Integrity
+    - Secure and unique account address
+        1. 256 bit random number generated for private key
+        2. ECC algo applied to private key to generate public key
+        3. Hashing applied to pubilc key to obtain account address
+    - Authorization of the transaction by the sender thorugh digital signing 
+        - Authorized 
+        - non - reputatble
+        - unmodifiable
+    - Verification of content not altered.
+
+    1. Find the hash of the data fields of the transaction
+    2. Encrypt the hash using the private key of the participant originating the transaction
+    3. Hash is added to the transaction
+
+    Complete transaction verification, also verify :
+        - timestamp
+        - nounce
+        - account balance
+        - available of fees
 
 ### Securing Blockchain
 
