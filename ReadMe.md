@@ -1,5 +1,10 @@
 # Blockchain
 
+Notes from :
+    course : https://www.coursera.org/learn/blockchain-basics?specialization=blockchain
+    Specialization : https://www.coursera.org/specializations/blockchain 
+
+
 ### Vocabulary :
 
 - Bitcoin : The concept of Bitcoin or the entire network.
