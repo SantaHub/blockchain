@@ -270,7 +270,7 @@ Learning Outcomes :
 
 Forks Allows Blockchains to make changes in their underlying systems and version updates, the emerging two chains could be incompatible.
 Forks can build credibility to chain.
-Soft forks are minor changes to the system
+Soft forks are minor changes to the system and the resulting version is backward compatible.
 
 ## Abbrevations 
 
